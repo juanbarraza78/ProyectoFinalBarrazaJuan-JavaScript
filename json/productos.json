@@ -1,0 +1,14 @@
+[
+    {"id": 1, "nombre":"productoArt1", "precio":50, "img":"./img/art1.jpeg", "cantidad":1, "categoria":"arte"},
+    {"id": 2, "nombre":"productoArt2", "precio":60, "img":"./img/art2.jpeg", "cantidad":1, "categoria":"arte"},
+    {"id": 3, "nombre":"productoEdu1", "precio":70, "img": "./img/edu1.jpeg", "cantidad":1, "categoria":"educacion"},
+    {"id": 4, "nombre":"productoEdu2", "precio":80, "img": "./img/edu2.jpeg", "cantidad":1, "categoria":"educacion"},
+    {"id": 5, "nombre":"productoEmo1", "precio":90, "img": "./img/emo1.jpeg", "cantidad":1, "categoria":"emocion"},
+    {"id": 6, "nombre":"productoEmo2", "precio":30, "img": "./img/emo2.jpeg", "cantidad":1, "categoria":"emocion"},
+    {"id": 7, "nombre":"productoJue1", "precio":20, "img": "./img/jue1.jpeg", "cantidad":1, "categoria":"juego"},
+    {"id": 8, "nombre":"productoJue2", "precio":100, "img": "./img/jue2.jpeg", "cantidad":1, "categoria":"juego"},
+    {"id": 9, "nombre":"productoMot1", "precio":200, "img": "./img/mot1.jpeg", "cantidad":1, "categoria":"motricidad"},
+    {"id": 10, "nombre":"productoMot2", "precio":300, "img": "./img/mot2.jpeg", "cantidad":1, "categoria":"motricidad"},
+    {"id": 11, "nombre":"productoSen1", "precio":220, "img": "./img/sen1.jpeg", "cantidad":1, "categoria":"sensorial"},
+    {"id": 12, "nombre":"productoSen2", "precio":330, "img": "./img/sen2.jpeg", "cantidad":1, "categoria":"sensorial"}
+]

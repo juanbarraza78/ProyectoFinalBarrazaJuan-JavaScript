@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <!-- toastify js -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+  </head>
+<body class="bodyProductos">
+  
+    <!-- Navegacion -->
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mx-5">
+              <li class="nav-item">
+                <a class="nav-link active fs-3" href="./index.html">Productos</a>
+              </li>
+              <li class="nav-item listItem">
+                <a id="botonCarrito1" href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="nav-item ms-auto mx-5"> <img src="./img/shopping-cart.png" alt=""> </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Catalogo de productos (Segun su clasificacion)-->
+
+    <main id="productos">
+        <div id="contenedorEducativo" class="row">
+            <h2 class="bg-white bg-opacity-75 rounded-4 shadow text-center mt-3">Educativos</h2>
+
+        </div>
+        <div id="contenedorMotricidad" class="row">
+            <h2 class="bg-white bg-opacity-75 rounded-4 shadow text-center mt-3">Motricidad</h2> 
+
+        </div>
+        <div id="contenedorArte" class="row">
+            <h2 class="bg-white bg-opacity-75 rounded-4 shadow text-center mt-3">Arte y Creatividad</h2>
+
+        </div>
+        <div id="contenedorJuego" class="row">
+            <h2 class="bg-white bg-opacity-75 rounded-4 shadow text-center mt-3">Juego</h2>
+
+        </div>
+        <div id="contenedorSensorial" class="row">
+            <h2 class="bg-white bg-opacity-75 rounded-4 shadow text-center mt-3">Sensorial</h2>
+
+        </div>
+
+        <div id="contenedorEmociones" class="row">
+            <h2 class="bg-white bg-opacity-75 rounded-4 shadow text-center mt-3">Emociones</h2>
+        </div>
+
+      <!--Ventana Modal -->
+
+      <div class="modal modal-xl fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class=" modal-title fs-2" id="staticBackdropLabel">Carrito de compras</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Carrito de compras-->
+
+              <div id="contenedorCarrito" class="row"></div>
+              <button class="btn btn-danger" id="vaciarCarrito">Eliminar carrito</button>
+              <h1 id="resultadoPrecio" class="bg-white bg-opacity-75 rounded-4 shadow mt-5"></h1>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+    </main>
+
+    <!-- Mi bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    <!-- toastify js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    
+    <!-- JavaScript -->
+    <script src="./main.js"></script>
+
+</body>
+</html>
+

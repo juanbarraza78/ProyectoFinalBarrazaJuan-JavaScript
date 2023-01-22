@@ -1,0 +1,16 @@
+.contenedor1
+{
+    width: 50%;
+
+}
+body 
+{
+    background-image: url("../img/fondo-acuarela_220290-34.webp");
+    background-attachment: fixed;
+}
+
+#botonCarrito1 img
+{
+width: 10%;
+
+}
